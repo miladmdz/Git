@@ -1,0 +1,362 @@
+@font-face {
+    font-family: "shabnam";
+    src: url(../font/Shabnam-FD.woff2)format(woff2);
+}
+@font-face {
+    font-family: "vazir light";
+    src: url(../font/Vazir-Light.ttf)format(TrueType);
+    src: url(../font/Vazir-Light.woff2)format(woff2);
+}
+*{
+    font-family: "vazir light";
+    margin: 0px;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 80rem;
+    margin-left: auto;
+    margin-right: auto;   
+    padding-right: 1rem;
+    padding-left: 1rem;
+}
+.container1{
+    max-width: 80rem;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-top: 10px;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+}
+.holder{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+    padding-bottom: 20px;
+    align-items: center;
+}
+.ihead{
+   position: relative;
+   display: flex;
+   align-items: center;
+   padding-bottom: 20px;
+}
+.h11{
+    display: inline-block;
+}
+.h1{
+    font-size: 20px;
+    position: relative;
+
+}
+.pheader{
+   display: inline-block;
+   padding: 5px 10px;
+   background-color:#068fff62 ;
+   border-radius: 5px;
+   transition: all 0.3s;
+}
+.pheader:hover{
+    background-color: #1212f1;
+    transform: scale(1.1);
+}
+.aheader{
+    position: relative;
+}
+.aheader:hover{
+    color: #fff;
+}
+.visible{
+    position: relative;
+    display: inline-block;
+    min-width: 220px;
+    padding-bottom: 20px;
+}
+.hidden{
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    max-width: 300px;
+    margin-top: 11px;
+    padding: 10px 5px;
+}
+.visible:hover .hidden{
+    display: block;
+}
+.hidden-text,.hidden-number{
+    display: block;
+}
+.hidden-text{
+    padding-bottom: 5px;
+    border-bottom: 1px solid #666;
+}
+.hidden-number{
+    padding-top: 5px;
+    margin-top: 4px;
+    text-align: center;
+    border-radius: 5px;
+}
+.hidden-number:hover{
+    background-color: #00BCD4;
+    color: #fff;
+}
+.hidden-number-a:hover{
+    color: #fff;
+}
+.main{
+    padding: 20px 10px;
+    background-color: #35A29F;
+}
+.p1{
+    color: #fff;
+    font-size: 20px;
+    font-weight: 500;
+}
+.p2{
+    transition: all 0.3s;
+}
+.p2-a{
+    color: #fff;
+    padding: 10px;
+    background-color: #068fff62;
+    border-radius: 5px;
+    font-weight: 500;
+    font-size: 20px;
+    transition: all 0.3s;
+}
+.p2-a:hover{
+    transform: scale(1.2);
+    background-color: #1212f1;
+}
+.p2:hover{
+    transform: scale(1.1);
+}
+.main-holder{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.mbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-top: 30px;
+    justify-content: space-evenly;
+    padding-left: 4rem;
+    padding-right: 4rem;
+}
+.box{
+    max-width: 245px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 2px 3px 20px 5px #2c333328;
+    margin-bottom: 40px;
+}
+.img1{
+    width: 180px;
+    margin-top: 25px;
+    padding: 5px;
+    max-width: 265px;
+}
+.bottom-box{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.pbox1{
+    font-family: "shabnam";
+    font-size: 15px;
+    padding: 12px;
+}
+.pbox111{
+    margin:30px 0px 36px 6px;
+    
+}
+.pbox1111{
+    margin-bottom: 35px;
+    margin-top: 35px;
+}
+.bottom-box-2-1{
+    display: flex;
+}
+.bottom-box-2-2-2{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.code{
+    display: flex;
+}
+.stakh{
+    margin-left: 0px;
+}
+.ptakhfif{
+    background-color: #068fff62;
+    color: #1212f1;
+    padding: 0px 5px;
+    border-radius: 5px;
+}
+.priceless{
+    text-decoration: line-through;
+}
+.bottom-box-2{
+    min-width: 100%;
+}
+.bottom-box-2-2{
+ 
+    margin-bottom: 25px;
+}
+.bottom-box-2-2-1{
+    display: flex;
+    align-items: center;
+}
+.price{
+    font-weight: 700;
+}
+.tooman{
+    font-size: 15px;
+}
+.bottom-box-2-2-2{
+    display: flex;
+    align-items: center;
+}
+.rating{
+    font-weight: 500;
+}
+.text-phone{
+    margin-bottom: 20px;
+}
+.holder-text-phone{
+    background-color: #1212f1;
+    display: flex;
+    align-items: center;
+    padding: 8px 5px;
+    max-width: 165px;
+    border-radius: 5px;
+    transition: all 0.3s;
+}
+.holder-text-phone:hover{
+    transform: scale(1.1);
+}
+.phone-number{
+    margin-right: 5px;
+}
+.text-phone-number-text{
+    color: #fff;
+}
+.text-phone-number-a{
+    color: #fff;
+}
+
+/*__________responsive_______*/
+
+@media only screen and ( max-width:1200px){
+    .container{
+        max-width: 960px;
+    }
+  .mbox{
+    padding-left: 0rem;
+    padding-right: 0rem;
+  }
+}
+@media only screen and ( max-width:992px){
+    .container{
+        max-width: 960px;
+        padding-left: 4rem;
+        padding-right: 4rem;
+      }
+}
+@media only screen and ( max-width:768px){
+    .container{
+        max-width: 540px;
+      }
+      .h1{
+        font-size: 14px;
+      }
+      .aheader{
+    font-size: 13px;
+      }
+      .visible{
+        min-width: 200px;
+      }
+      .box{
+        max-width: 200px;
+      }
+      .img1{
+        width: 160px;
+      }
+      .hidden-text{
+        font-size: 10px;
+      }
+      .p1{
+        font-size: 15px;
+      }
+      .p2-a{
+        font-size: 15px;
+      }
+      .pbox111{
+        font-size: 12px;
+      }
+      .code-for-buy{
+        font-size: 12px;
+        font-weight: bold;
+      }
+      .text-phone-number-text{
+        font-size: 12px;
+      }
+      .text-phone-number-a{
+        font-size: 12px;
+      }
+      .pbox111{
+        margin-bottom: 20px;
+      }
+}
+@media only screen and ( max-width:576px){
+    .container{
+        max-width: 100%;
+        padding-left: 1rem;
+        padding-right: 1rem;
+      }
+      .visible{
+        min-width: 100px;
+      }
+      .hidden-number-a{
+        font-size: 10px;
+      }
+      .hidden-number{
+        padding-top: 0px;
+      }
+      .h1{
+        font-size: 10px;
+      }
+      .visible{
+        min-width: 70px;
+        font-size: 9px;
+      }
+      .p1{
+        font-size: 12px;
+      }
+      .p2-a{
+        font-size: 12px;
+      }
+}
